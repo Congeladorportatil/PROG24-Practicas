@@ -1,0 +1,37 @@
+# crea una misión con tiempos 0 10 110 200 300 310
+pos 0 0 0
+vel 0 0 0
+dron d1 0 
+mision m1 6
+pos 0 0 0
+addpos 0
+pos 0 0 80
+addpos 10
+pos -200 150 80
+addpos 110
+pos 100 150 80
+addpos 200
+pos 0 0 80
+addpos 300
+pos 0 0 0
+addpos 310
+
+# mueve el dron y actualiza la misión
+mover1 0
+update 0
+show
+mover1 10
+update 10
+show
+mover1 110
+update 110
+show
+mover1 200
+update 200
+show
+mover1 300
+update 300
+show
+mover1 310
+update 310
+show
