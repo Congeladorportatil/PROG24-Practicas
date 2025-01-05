@@ -1,0 +1,44 @@
+# despegue y aterrizaje vertical 
+dron d1 0 
+vel 0 0 1
+addvel
+mover1 10
+vel 0 0 -1
+addvel
+mover1 20
+vel 0 0 0
+addvel
+mover1 30
+status
+
+# drones en vuelo con igual y,z pero acercándose desde x 0 y x 100
+pos 0 0 10
+vel 1 0 0
+dron d1 0 
+pos 100 0 10
+vel -1 0 0
+dron d2 0 
+mover1 10
+mover2 10
+peligro
+mover1 40
+mover2 40
+peligro
+mover1 48
+mover2 48
+peligro
+# ahora están en peligro
+mover1 50
+mover2 50
+peligro
+# siguen en peligro
+mover1 51
+mover2 51
+peligro
+# dejan de estarlo
+mover1 52
+mover2 52
+peligro
+
+
+exit
