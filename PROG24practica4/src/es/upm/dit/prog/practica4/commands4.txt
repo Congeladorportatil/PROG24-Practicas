@@ -1,0 +1,72 @@
+# crea la misión m1 con el dron d1 y añade 6 posiciones y tiempos
+pos 0 0 0
+vel 0 0 0
+dron d1 0 
+adddron
+mision m1 6
+addmision
+pos 0 0 0
+addpos 0
+pos 0 0 100
+addpos 10
+pos 200 0 100
+addpos 110
+pos 200 -10 100
+addpos 210
+pos 0 0 100
+addpos 300
+pos 0 0 0
+addpos 310
+
+# crea la misión m2 con el dron d2 y añade 6 posiciones y tiempos
+pos 20 -20 0
+vel 0 0 0
+dron d2 0 
+adddron
+mision m2 6
+addmision
+pos 20 -20 0
+addpos 20
+pos 20 -20 50
+addpos 30
+pos 100 -80 50
+addpos 140
+pos 100 -120 50
+addpos 240
+pos 20 -20 50
+addpos 340
+pos 20 -20 0
+addpos 350
+
+# crea la misión m3 con el dron d3 y añade 6 posiciones y tiempos
+pos -30 30 0
+vel 0 0 0
+dron d3 40 
+adddron
+mision m3 6
+addmision
+pos -30 30 0
+addpos 40
+pos -30 30 150
+addpos 60
+pos -110 80 150
+addpos 180
+pos -110 0 180
+addpos 240
+pos -30 30 150
+addpos 340
+pos -30 30 0
+addpos 380
+
+seltrue
+selactivas
+
+pos 0.3 0.1 0
+selalejadas 1
+selaterrizando
+seldespegando
+selenpeligro
+
+
+
+sim 0 400
